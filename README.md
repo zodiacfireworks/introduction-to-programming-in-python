@@ -5,7 +5,8 @@ Material didactico para dictar un taller introductorio de programamción en Pyth
 
 
 ## Charlas
-* __`12.12.2016 :`__ Facultad de Matematica de la UNMSM
+* __`[12.12.2016]`__ Facultad de Matematica de la UNMSM
+    Organizado por la Rama Estudiantil IEEE CIS de la Escuela Académico Profesional de Computación Científica de la Facultad Ciencias Matemáticas de la Universidad Nacional Mayor De San Marcos. Lima - Perú.
 
 
 ## Author
