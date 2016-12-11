@@ -3,14 +3,36 @@
 
 Material didactico para dictar un taller introductorio de programamción en Python
 
-
-## Charlas
-* __`[12.12.2016]`__ Facultad de Matematica de la UNMSM
-    Organizado por la Rama Estudiantil IEEE CIS de la Escuela Académico Profesional de Computación Científica de la Facultad Ciencias Matemáticas de la Universidad Nacional Mayor De San Marcos. Lima - Perú.
-
-
 ## Author
 * [@zodiacfireworks](https://github.com/zodiacfireworks)
+
+## Detalles
+* __Nivel__
+    Básico
+
+* __Duración__
+    3 horas (2 horas y 50 minutos con 10 minutos de intermedio)
+
+* __Descripción__
+    Taller introductorio elaborado para dar a conocer las características del lenguaje de programación Python, su ecosistema de desarrollo, sus aplicaciones en el mundo actual y su futuro como herramienta. Tiene por objetivo acercar al estudiante a una herramienta rápida y versátil como es Python para la elaboración de soluciones programadas a problemas reales. Durante todo el taller se realizarán ejemplos aplicativos que los participantes podrán seguir fácilmente y al final del mismo habrá un espacio para aplicaciones prácticas en las cuales el participante reforzará todo lo aprendido a lo largo del taller.
+
+## Desarrollo
+ 1. __`[10 min]`__ ¿Qué es Python?
+ 2. __`[10 min]`__ ¿Por qué usar Python?
+ 3. __`[10 min]`__ El ecosistema de Python
+ 4. __`[20 min]`__ Python: línea de comandos y scripts
+ 5. __`[10 min]`__ Programación estructurada Python
+ 6. __`[15 min]`__ Variables y tipos de variables
+ 7. __`[20 min]`__ Estructuras de control
+ 8. __`[20 min]`__ Funciones
+ 9. __`[20 min]`__ Módulos
+10. __`[35 min]`__ Taller de aplicaciones prácticas
+
+
+## Charlas
+* __`[12.12.2016]`__ Taller de Programamción Python en Linux Fedora
+    Organizado por la Rama Estudiantil IEEE CIS de la Escuela Académico Profesional de Computación Científica de la Facultad Ciencias Matemáticas de la Universidad Nacional Mayor De San Marcos. Lima - Perú.
+
 
 ## Licencia
 Todos los recursos desarrollados por mi en este repositorio estan sujetos la licencia MIT
