@@ -1,0 +1,73 @@
+/*!
+ * general settings
+ */
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+
+    *,
+    *:focus {
+        outline: none;
+    }
+
+/*!
+ * General Layout Settings
+ */
+    .page-wrapper,
+    .page-prelaoder,
+    .page-content {
+        height: 100%;
+        width: 100%;
+    }
+
+/*!
+ * preloader
+ */
+    .page-wrapper.is-loading {
+        overflow: hidden;
+    }
+
+    .page-wrapper.is-loading .page-preloader {
+        opacity: 1;
+    }
+
+    .page-preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: 0;
+        pointer-events: none;
+        user-select: none;
+        z-index: 1000000;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .page-preloader .preloader-wrapper-external {
+        position: fixed;
+        pointer-events: none;
+        user-select: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .page-preloader .preloader-wrapper-external .preloader-wrapper.big {
+        height: 128px;
+        width: 128px;
+    }
+
+/*!
+ * page content layout
+ */
+    .page-content {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    .page-content main {
+        flex: 1 0 auto;
+    }

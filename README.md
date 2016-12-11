@@ -1,5 +1,5 @@
 # Introducción a la programación en Python
-![Python][2] ![MIT License][1]
+[![MIT License][2]][1] [![Python][3]][1]
 
 Material didactico para dictar un taller introductorio de programamción en Python
 
@@ -65,5 +65,6 @@ Los recursos con sus respectivas licencias estan protegidos por ella.
 Si usted encuenta contenido protegido por Derechos de autor, por favor contáctese
 conmigo para dar los respectivos créditos y corregir de acuerdo a la ley.
 
-[1]: https://img.shields.io/badge/License-MIT-blue.svg?maxAge=2592000&style=flat-square
-[2]: https://img.shields.io/badge/Language-Python-green.svg?maxAge=2592000&style=flat-square
+[1]: https://github.com/zodiacfireworks/introduction-to-programming-in-python
+[2]: https://img.shields.io/badge/License-MIT-blue.svg?maxAge=2592000&style=flat-square
+[3]: https://img.shields.io/badge/Language-Python-green.svg?maxAge=2592000&style=flat-square
