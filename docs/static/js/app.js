@@ -34,6 +34,15 @@
         m.parentNode.insertBefore(a, m);
     };
 
+    function fadePreloader() {
+        $('.page-wrapper').removeClass('is-loading');
+
+        setTimeout(function() {
+            $('.page-preloader').css('z-index', '-1');
+            $('.preloader-wrapper').removeClass('active');
+        }, 500);
+    };
+
     $(window).on('load', function() {
         // Facebook Analytics
         fbSDK(document, 'script', 'facebook-jssdk');
@@ -42,5 +51,8 @@
         googleAnalytics(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-88770786-1', 'auto');
         ga('send', 'pageview');
+
+        // Fade preloader
+        fadePreloader();
     });
 })(jQuery);
