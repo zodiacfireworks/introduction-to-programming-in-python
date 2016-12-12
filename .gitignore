@@ -1,0 +1,8 @@
+# Directory patterns
+.stfolder
+.ipynb_checkpoints
+__pycache__
+
+# File patterns
+.stfile
+.pyc

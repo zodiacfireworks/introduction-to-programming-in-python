@@ -60,18 +60,6 @@
     }
 
 /*!
- * page content layout
- */
-    .page-content {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .page-content main {
-        flex: 1 0 auto;
-    }
-
-/*!
  * Navigation Menu
  */
     #slide-out-trigger {
