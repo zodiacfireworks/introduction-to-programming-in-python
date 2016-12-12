@@ -2,6 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8" />
+
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" c/ontent="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
         <meta name="robots" content="all,follow">
@@ -31,10 +32,10 @@
         <link rel="apple-touch-icon" type="image/png" sizes="144x144" href="static/favicon/apple-touch-icon-144x144.png">
         <link rel="apple-touch-icon" type="image/png" sizes="120x120" href="static/favicon/apple-touch-icon-120x120.png">
         <link rel="apple-touch-icon" type="image/png" sizes="114x114" href="static/favicon/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" type="image/png" sizes="76x76"   href="static/favicon/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" type="image/png" sizes="72x72"   href="static/favicon/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" type="image/png" sizes="60x60"   href="static/favicon/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" type="image/png" sizes="57x57"   href="static/favicon/apple-touch-icon-57x57.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="static/favicon/apple-touch-icon-76x76.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="72x72" href="static/favicon/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="60x60" href="static/favicon/apple-touch-icon-60x60.png">
+        <link rel="apple-touch-icon" type="image/png" sizes="57x57" href="static/favicon/apple-touch-icon-57x57.png">
 
         <meta name="application-name" content="Introducción a la programación en Python">
         <meta name="theme-color" content="#212121">
@@ -44,30 +45,31 @@
         <link rel="icons" type="image/png" sizes="256x256" href="android-chrome-256x256.png">
         <link rel="icons" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
         <link rel="icons" type="image/png" sizes="144x144" href="android-chrome-144x144.png">
-        <link rel="icons" type="image/png" sizes="96x96"   href="android-chrome-96x96.png">
-        <link rel="icons" type="image/png" sizes="72x72"   href="android-chrome-72x72.png">
-        <link rel="icons" type="image/png" sizes="48x48"   href="android-chrome-48x48.png">
-        <link rel="icons" type="image/png" sizes="36x36"   href="android-chrome-36x36.png">
+        <link rel="icons" type="image/png" sizes="96x96" href="android-chrome-96x96.png">
+        <link rel="icons" type="image/png" sizes="72x72" href="android-chrome-72x72.png">
+        <link rel="icons" type="image/png" sizes="48x48" href="android-chrome-48x48.png">
+        <link rel="icons" type="image/png" sizes="36x36" href="android-chrome-36x36.png">
 
         <meta name="msapplication-TileColor" content="#292927">
         <meta name="msapplication-TileImage" content="static/img/favicon/mstile-144x144.png">
         <meta name="msapplication-config" content="static/img/favicon/browserconfig.xml">
-
         <link rel="icon" type="image/png" href="static/img/favicon/favicon-194x194.png" sizes="194x194">
         <link rel="icon" type="image/png" href="static/img/favicon/favicon-32x32.png" sizes="32x32">
         <link rel="icon" type="image/png" href="static/img/favicon/favicon-16x16.png" sizes="16x16">
+
         <link rel="shortcut icon" href="static/img/favicon/favicon.ico">
 
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/material-icons.css">
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/font-awesome.css">
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/materialize.css">
+        <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/jquery.scrollbar.css">
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/owl.transitions.css">
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/owl.carousel.css">
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/owl.theme.css">
         <link type="text/css" charset="utf-8" rel="stylesheet" href="static/css/main.css">
     </head>
     <body>
-        <div class="page-wrapper is-loading is-on-top grey-text text-darken-4 white">
+        <div class="page-wrapper is-loading grey-text text-darken-4 white">
             <!-- Preloader -->
             <div class="page-preloader grey lighten-5">
                 <div class="preloader-wrapper-external">
@@ -83,7 +85,6 @@
                                 <div class="circle"></div>
                             </div>
                         </div>
-
                         <div class="spinner-layer spinner-red">
                             <div class="circle-clipper left">
                                 <div class="circle"></div>
@@ -95,7 +96,6 @@
                                 <div class="circle"></div>
                             </div>
                         </div>
-
                         <div class="spinner-layer spinner-yellow">
                             <div class="circle-clipper left">
                                 <div class="circle"></div>
@@ -107,7 +107,6 @@
                                 <div class="circle"></div>
                             </div>
                         </div>
-
                         <div class="spinner-layer spinner-green">
                             <div class="circle-clipper left">
                                 <div class="circle"></div>
@@ -122,21 +121,61 @@
                     </div>
                 </div>
             </div>
-
             <!-- Contents -->
             <div class="page-content transparent">
-                <!-- Page main content -->
-                <div
-                    class="fb-like"
-                    data-share="true"
-                    data-width="450"
-                    data-show-faces="true">
+                <!-- Navigation -->
+                    <a id="slide-out-trigger" href="javascript:void(0);" data-activates="slide-out" class="button-collapse right">
+                        <i class="material-icons grey-text text-darken-4">menu</i>
+                    </a>
+                    <ul id="slide-out" class="side-nav">
+                        <li><a href="#!">First Sidebar Link</a></li>
+                        <li><a href="#!">Second Sidebar Link</a></li>
+                        <li class="no-padding">
+                            <ul class="collapsible collapsible-accordion">
+                                <li>
+                                    <a class="collapsible-header">Dropdown<i class="material-icons">arrow_drop_down</i></a>
+                                    <div class="collapsible-body">
+                                        <ul>
+                                            <li><a href="#!">First</a></li>
+                                            <li><a href="#!">Second</a></li>
+                                            <li><a href="#!">Third</a></li>
+                                            <li><a href="#!">Fourth</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                <!-- Slide Show -->
+                <div id="slide-show" class="owl-carousel owl-theme slide-show scrollbar-macosx scroll-wrapper">
+                    <div class="item slide scrollbar-macosx scroll valign-wrapper">
+                        <main class="middle-align">
+                            <div class="container center-align">
+                                <h1 class="normal">Introducción a la programación en</h1>
+                                <h1 ><img src="static/img/python-isologo.png" alt="Python"></h1>
+                                <h5 class="thin"><a href="https://zodiacfireworks.github.io" class="grey-text text-darken-4">@zodiacfireworks</a></h5>
+                            </div>
+                        </main>
+                    </div>
+                    <div class="item slide scrollbar-macosx scroll">
+                    </div>
+                    <div class="item slide scrollbar-macosx scroll">
+                    </div>
                 </div>
+
+                <!-- div
+                        class="fb-like"
+                        data-share="true"
+                        data-width="450"
+                        data-show-faces="true">
+                    </div -->
             </div>
         </div>
-        <script type="text/javascript" charset="utf-8" src="static/js/jquery.js" ></script>
-        <script type="text/javascript" charset="utf-8" src="static/js/materialize.js" ></script>
-        <script type="text/javascript" charset="utf-8" src="static/js/owl.carousel.js" ></script>
-        <script type="text/javascript" charset="utf-8" src="static/js/app.js" ></script>
+        <script type="text/javascript" charset="utf-8" src="static/js/jquery.js"></script>
+        <script type="text/javascript" charset="utf-8" src="static/js/jquery.scrollbar.js"></script>
+        <script type="text/javascript" charset="utf-8" src="static/js/materialize.js"></script>
+        <script type="text/javascript" charset="utf-8" src="static/js/owl.carousel.js"></script>
+        <script type="text/javascript" charset="utf-8" src="static/js/app.js"></script>
     </body>
 </html>

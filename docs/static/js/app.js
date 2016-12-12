@@ -45,12 +45,32 @@
 
     $(window).on('load', function() {
         // Facebook Analytics
-        fbSDK(document, 'script', 'facebook-jssdk');
+        // fbSDK(document, 'script', 'facebook-jssdk');
 
         // Google Analytics
-        googleAnalytics(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-        ga('create', 'UA-88770786-1', 'auto');
-        ga('send', 'pageview');
+        // googleAnalytics(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+        // ga('create', 'UA-88770786-1', 'auto');
+        // ga('send', 'pageview');
+
+        // Side navigation
+        $('#slide-out-trigger').sideNav({
+            menuWidth: 300, // Default is 240
+            edge: 'right', // Choose the horizontal origin
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+
+        // Slide Show
+        $("#slide-show").owlCarousel({
+            navigation : false, // Show next and prev buttons
+            slideSpeed : 300,
+            pagination : false,
+            paginationSpeed : 400,
+            singleItem:true
+        });
+
+        // Scroll bars
+        $('.scrollbar-macosx').scrollbar();
 
         // Fade preloader
         fadePreloader();
