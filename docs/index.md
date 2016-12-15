@@ -17,3 +17,7 @@ Material didactico para dictar un taller introductorio de programamción en Pyth
 8. Funciones
 9. Módulos
 10. Taller de aplicaciones prácticas
+
+[1]: https://github.com/zodiacfireworks/introduction-to-programming-in-python
+[2]: https://img.shields.io/badge/License-MIT-blue.svg?maxAge=2592000&style=flat-square
+[3]: https://img.shields.io/badge/Language-Python-green.svg?maxAge=2592000&style=flat-square
