@@ -1,12 +1,12 @@
-# Introducción a la programación en Python
+#Introducción a la programación en Python
 [![MIT License][2]][1] [![Python][3]][1]
 
 Material didactico para dictar un taller introductorio de programamción en Python
 
-## Author
+##Author
 * [@zodiacfireworks](https://github.com/zodiacfireworks)
 
-## Temario
+##Temario
 1. ¿Qué es Python?
 2. ¿Por qué usar Python?
 3. El ecosistema de Python
